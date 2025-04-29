@@ -14,12 +14,13 @@ public class Pyramid {
 
             System.out.println(y);
 
-
         }
 
-
         for (int i = x; i > 0; i--) {
-            System.out.println(y.substring(0, y.length() - 1));
+
+            y = y.substring(0, y.length() - 1);
+
+            System.out.println(y);
         }
 
     }
